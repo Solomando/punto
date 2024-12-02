@@ -45,7 +45,7 @@ public class EjemploPunto {
       Punto longitud = new Punto();
       Pajaro loro =new Pajaro("emilia", 25,25);
       double d=loro.volar(25,25);
-      System.out.println("el desplazamiento del loro es de " +d+ " metros");
+      System.out.println("el desplazamiento de " +loro.nombre+" es de " +d+ " metros");
 
       
       System.out.println("prueba latitud : " + latitud.muestraDatos() );

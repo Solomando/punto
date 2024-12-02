@@ -1,3 +1,4 @@
+
 class Pajaro {
     String nombre;
     double posx;

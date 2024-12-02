@@ -1,3 +1,5 @@
+
+
 class Punto {
 
     //Definición de Atriobutos
