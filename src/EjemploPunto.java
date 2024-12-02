@@ -1,8 +1,21 @@
 public class EjemploPunto {
 
-    public static void main(String []args) {
+    public static void main(String []args){
+
+     Complejo a = new Complejo();
+     Complejo b = new Complejo(2,3);
+
+     a.cambia_Real(4);
+     a.cambia_Imag(7);
+
+     System.out.println("Numero complejo a: " + a.toString());
+     System.out.println("Numero complejo b: " + b.toString());
+
+     a.sumar(b);
+     System.out.println("Suma a + b: " + a.toString());
+
   
-      /*Punto P = new Punto(), Q = new Punto();*/
+      /*Punto P = new Punto(), Q = new Punto();
       Punto M = new Punto();
       Punto N = new Punto();
 
@@ -39,7 +52,7 @@ public class EjemploPunto {
   
       distanciaPQ = Math.sqrt(  Math.pow((P.x-Q.x) ,2) + Math.pow((P.y-Q.y) ,2) );
   
-      System.out.prkntf("Distancia P a Q : %03.1f\n", distanciaPQ ) ;*/
+      System.out.prkntf("Distancia P a Q : %03.1f\n", distanciaPQ ) ;
 
       Punto latitud = new Punto();
       Punto longitud = new Punto();
@@ -55,7 +68,7 @@ public class EjemploPunto {
 
       System.out.printf("prueba M : Coordenadas (%03.1f , %03.1f).\n" , M.latitud , M.longitud );
   
-      System.out.printf("prueba N : Coordenadas (%03.1f , %03.1f).\n" ,N.latitud, N.longitud );
+      System.out.printf("prueba N : Coordenadas (%03.1f , %03.1f).\n" ,N.latitud, N.longitud );*/
   
     }
   
